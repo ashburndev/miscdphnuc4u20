@@ -1,0 +1,169 @@
+Sun 22 May 2022 09:42:57 AM EDT
+
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ date
+Sun 22 May 2022 09:42:39 AM EDT
+ashburndave@dphnuc4:~$ date > stuff-20220522.txt
+ashburndave@dphnuc4:~$ code   stuff-20220522.txt
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ uname -a
+Linux dphnuc4 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.8G     0  7.8G   0% /dev
+tmpfs           1.6G  1.7M  1.6G   1% /run
+/dev/sda2       219G   40G  169G  19% /
+tmpfs           7.8G   29M  7.8G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       62M   62M     0 100% /snap/core20/1405
+/dev/loop2       62M   62M     0 100% /snap/core20/1434
+/dev/loop3       45M   45M     0 100% /snap/snapd/15534
+/dev/loop4      249M  249M     0 100% /snap/gnome-3-38-2004/99
+/dev/loop5       66M   66M     0 100% /snap/gtk-common-themes/1519
+/dev/loop6       44M   44M     0 100% /snap/snapd/15177
+/dev/loop7       55M   55M     0 100% /snap/snap-store/558
+/dev/sda1       511M  5.3M  506M   2% /boot/efi
+tmpfs           1.6G   68K  1.6G   1% /run/user/1000
+/dev/loop8       82M   82M     0 100% /snap/gtk-common-themes/1534
+/dev/sdb1        61G   12M   61G   1% /media/ashburndave/SanDisk
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+udev             8104160        0   8104160   0% /dev
+tmpfs            1627940     1652   1626288   1% /run
+/dev/sda2      229184876 40953664 176519572  19% /
+tmpfs            8139684    29164   8110520   1% /dev/shm
+tmpfs               5120        4      5116   1% /run/lock
+tmpfs            8139684        0   8139684   0% /sys/fs/cgroup
+/dev/loop0           128      128         0 100% /snap/bare/5
+/dev/loop1         63488    63488         0 100% /snap/core20/1405
+/dev/loop2         63488    63488         0 100% /snap/core20/1434
+/dev/loop3         45824    45824         0 100% /snap/snapd/15534
+/dev/loop4        254848   254848         0 100% /snap/gnome-3-38-2004/99
+/dev/loop5         66816    66816         0 100% /snap/gtk-common-themes/1519
+/dev/loop6         44800    44800         0 100% /snap/snapd/15177
+/dev/loop7         55552    55552         0 100% /snap/snap-store/558
+/dev/sda1         523248     5360    517888   2% /boot/efi
+tmpfs            1627936       68   1627868   1% /run/user/1000
+/dev/loop8         83328    83328         0 100% /snap/gtk-common-themes/1534
+/dev/sdb1       63025664    12032  63013632   1% /media/ashburndave/SanDisk
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ls -latr /media/ashburndave/SanDisk/
+total 8708
+-rwxr-xr-x  1 ashburndave ashburndave 8600360 Nov  3  2016 SanDiskSecureAccessV3.01_win.exe
+drwxr-xr-x  2 ashburndave ashburndave  131072 Jun  9  2021 SanDiskSecureAccess
+drwxr-x---+ 3 root        root           4096 May 22 09:41 ..
+drwxr-xr-x  3 ashburndave ashburndave  131072 May 22 09:41 .
+ashburndave@dphnuc4:~$ ls -latr /media/ashburndave/SanDisk/
+ls: cannot access '/media/ashburndave/SanDisk/': No such file or directory
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ls -latrR /media/ashburndave/SanDisk
+/media/ashburndave/SanDisk:
+total 8836
+-rwxr-xr-x  1 ashburndave ashburndave 8600360 Nov  3  2016  SanDiskSecureAccessV3.01_win.exe
+drwxr-xr-x  2 ashburndave ashburndave  131072 Jun  9  2021  SanDiskSecureAccess
+drwxr-xr-x  2 ashburndave ashburndave  131072 May 22 09:49 'System Volume Information'
+drwxr-x---+ 3 root        root           4096 May 22 09:59  ..
+drwxr-xr-x  4 ashburndave ashburndave  131072 May 22 09:59  .
+
+/media/ashburndave/SanDisk/SanDiskSecureAccess:
+total 3328
+-rwxr-xr-x 1 ashburndave ashburndave  361159 Nov  8  2016 DownloadSanDiskSecureAccess_Mac.pdf
+-rwxr-xr-x 1 ashburndave ashburndave 2681165 Nov  8  2016 SanDisk_SecureAccess_QSG.pdf
+drwxr-xr-x 2 ashburndave ashburndave  131072 Jun  9  2021 .
+drwxr-xr-x 4 ashburndave ashburndave  131072 May 22 09:59 ..
+
+'/media/ashburndave/SanDisk/System Volume Information':
+total 512
+drwxr-xr-x 2 ashburndave ashburndave 131072 May 22 09:49 .
+-rwxr-xr-x 1 ashburndave ashburndave     76 May 22 09:49 IndexerVolumeGuid
+-rwxr-xr-x 1 ashburndave ashburndave     12 May 22 09:50 WPSettings.dat
+drwxr-xr-x 4 ashburndave ashburndave 131072 May 22 09:59 ..
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ls -latr ~/Downloads/ | tail
+-rw-rw-r--  1 ashburndave ashburndave  116452302 May 18 11:32 code-1.67.1-1651841920.el7.x86_64.rpm
+-rw-rw-r--  1 ashburndave ashburndave  115657504 May 18 11:32 code-stable-x64-1651842173.tar.gz
+-rw-rw-r--  1 ashburndave ashburndave 3379068928 May 18 11:40 ubuntu-20.04.4-desktop-amd64.iso
+-rw-rw-r--  1 ashburndave ashburndave        202 May 18 11:40 ubuntu-20.04.4-desktop-amd64.iso.SHA256SUMS
+-rw-rw-r--  1 ashburndave ashburndave        833 May 18 11:40 ubuntu-20.04.4-desktop-amd64.iso.SHA256SUMS.gpg
+-rw-rw-r--  1 ashburndave ashburndave 3654957056 May 18 11:51 ubuntu-22.04-desktop-amd64.iso
+-rw-rw-r--  1 ashburndave ashburndave        198 May 18 11:52 ubuntu-22.04-desktop-amd64.iso.SHA256SUMS
+-rw-rw-r--  1 ashburndave ashburndave        833 May 18 11:52 ubuntu-22.04-desktop-amd64.iso.SHA256SUMS.gpg
+drwxr-xr-x  3 ashburndave ashburndave       4096 May 18 11:53 .
+drwxr-xr-x 40 ashburndave ashburndave       4096 May 22 09:42 ..
+ashburndave@dphnuc4:~$ 
+
+https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview
+
+ashburndave@dphnuc4:~$ ls -lagtr ~/Downloads/ | tail
+-rw-rw-r--  1 ashburndave  116452302 May 18 11:32 code-1.67.1-1651841920.el7.x86_64.rpm
+-rw-rw-r--  1 ashburndave  115657504 May 18 11:32 code-stable-x64-1651842173.tar.gz
+-rw-rw-r--  1 ashburndave 3379068928 May 18 11:40 ubuntu-20.04.4-desktop-amd64.iso
+-rw-rw-r--  1 ashburndave        202 May 18 11:40 ubuntu-20.04.4-desktop-amd64.iso.SHA256SUMS
+-rw-rw-r--  1 ashburndave        833 May 18 11:40 ubuntu-20.04.4-desktop-amd64.iso.SHA256SUMS.gpg
+-rw-rw-r--  1 ashburndave 3654957056 May 18 11:51 ubuntu-22.04-desktop-amd64.iso
+-rw-rw-r--  1 ashburndave        198 May 18 11:52 ubuntu-22.04-desktop-amd64.iso.SHA256SUMS
+-rw-rw-r--  1 ashburndave        833 May 18 11:52 ubuntu-22.04-desktop-amd64.iso.SHA256SUMS.gpg
+drwxr-xr-x  3 ashburndave       4096 May 18 11:53 .
+drwxr-xr-x 40 ashburndave       4096 May 22 09:42 ..
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ cd ~/Downloads/
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ shasum -a 256 --check ubuntu-20.04.4-desktop-amd64.iso.SHA256SUMS
+ubuntu-20.04.4-desktop-amd64.iso: OK
+shasum: ubuntu-20.04.4-live-server-amd64.iso: No such file or directory
+ubuntu-20.04.4-live-server-amd64.iso: FAILED open or read
+shasum: WARNING: 1 listed file could not be read
+ashburndave@dphnuc4:~/Downloads$ 
+
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.8G     0  7.8G   0% /dev
+tmpfs           1.6G  1.7M  1.6G   1% /run
+/dev/sda2       219G   40G  169G  19% /
+tmpfs           7.8G   29M  7.8G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       62M   62M     0 100% /snap/core20/1405
+/dev/loop2       62M   62M     0 100% /snap/core20/1434
+/dev/loop3       45M   45M     0 100% /snap/snapd/15534
+/dev/loop4      249M  249M     0 100% /snap/gnome-3-38-2004/99
+/dev/loop5       66M   66M     0 100% /snap/gtk-common-themes/1519
+/dev/loop6       44M   44M     0 100% /snap/snapd/15177
+/dev/loop7       55M   55M     0 100% /snap/snap-store/558
+/dev/sda1       511M  5.3M  506M   2% /boot/efi
+tmpfs           1.6G   72K  1.6G   1% /run/user/1000
+/dev/loop8       82M   82M     0 100% /snap/gtk-common-themes/1534
+/dev/sdb1       3.4G  3.4G     0 100% /media/ashburndave/Ubuntu 22.04 LTS amd64
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ls -latr /media/ashburndave/Ubuntu\ 22.04\ LTS\ amd64/
+total 50
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 15 18:08 EFI
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 15 18:08 boot
+lr-xr-xr-x  1 ashburndave ashburndave     1 Apr 19 06:19 ubuntu -> .
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:19 preseed
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:19 install
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:19 dists
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:19 pool
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:21 .disk
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:21 casper
+dr-xr-xr-x  1 ashburndave ashburndave  2048 Apr 19 06:21 .
+-r--r--r--  1 ashburndave ashburndave 26414 Apr 19 06:23 md5sum.txt
+-r--r--r--  1 ashburndave ashburndave  2048 Apr 19 06:23 boot.catalog
+drwxr-x---+ 3 root        root         4096 May 22 10:18 ..
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ 
+
+
+
+
+
+
+
+

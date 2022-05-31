@@ -1,0 +1,48 @@
+Tue 31 May 2022 05:34:40 AM EDT
+
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ date
+Tue 31 May 2022 05:34:05 AM EDT
+ashburndave@dphnuc4:~$ date > stuff-20220531.txt
+ashburndave@dphnuc4:~$ code   stuff-20220531.txt 
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ neofetch --off
+ashburndave@dphnuc4 
+------------------- 
+OS: Ubuntu 20.04.4 LTS x86_64 
+Kernel: 5.13.0-41-generic 
+Uptime: 11 days, 22 hours, 3 mins 
+Packages: 1802 (dpkg), 7 (snap) 
+Shell: bash 5.0.17 
+Resolution: 3840x2160 
+DE: GNOME 
+WM: Mutter 
+WM Theme: Adwaita 
+Theme: Yaru [GTK2/3] 
+Icons: Yaru [GTK2/3] 
+Terminal: gnome-terminal 
+CPU: Intel i5-4250U (4) @ 2.600GHz 
+GPU: Intel Haswell-ULT 
+Memory: 4661MiB / 15897MiB 
+
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ruby --version
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]
+ashburndave@dphnuc4:~$ rails --version
+Rails 7.0.3
+ashburndave@dphnuc4:~$ rbenv --version
+rbenv 1.2.0-14-gc6cc0a1
+ashburndave@dphnuc4:~$ nvm --version
+0.39.1
+ashburndave@dphnuc4:~$ node --version
+v16.14.1
+ashburndave@dphnuc4:~$ npm --version
+8.5.0
+ashburndave@dphnuc4:~$ yarn --version
+1.22.19
+ashburndave@dphnuc4:~$ mysql --version
+mysql  Ver 8.0.29-0ubuntu0.20.04.3 for Linux on x86_64 ((Ubuntu))
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ 
+
